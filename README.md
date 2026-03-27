@@ -36,7 +36,7 @@ A lot of category-theory Haskell repos go in one of two directions:
 ## Project layout
 
 ```text
-categorical-lab/
+category-theory-experiment/
 ├── app/
 │   └── Main.hs
 ├── src/
