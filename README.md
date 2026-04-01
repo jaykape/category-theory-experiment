@@ -175,26 +175,8 @@ If you only want to read the code, the modules are written to be reasonably self
 
 ---
 
-## Suggested next steps
-
-Good extensions for this repo:
-
-- add a `Yoneda` module,
-- add `Adjunction` experiments,
-- add profunctor examples,
-- add a `limits` or `products-and-coproducts` module,
-- port the symbolic finite-category layer to a more strongly typed GADT representation,
-- add QuickCheck properties for category laws.
-
----
 
 ## Notes
 
 This repo is deliberately an **experiment lab**, not a polished categorical framework. Some constructions are represented symbolically using names and tables instead of highly sophisticated type-level encodings. That tradeoff is intentional: it keeps the code easier to inspect, fork, and modify.
-
-If you want, the next version can lean harder in either direction:
-
-- **more mathematical**: Yoneda, adjunctions, Kan extensions, profunctors,
-- **more Haskell-heavy**: GADTs, `ConstraintKinds`, indexed categories, type-level objects,
-- **more practical**: arrows, optics, free monads, recursion schemes.
 
